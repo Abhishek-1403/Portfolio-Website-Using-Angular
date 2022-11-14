@@ -1,0 +1,22 @@
+#fullContent{
+    margin-top: 3%;
+    background-color: beige;
+}
+ul{
+    width: 80vw;
+    display: flex;
+    /* justify-content: space-around;  */
+    flex-wrap: wrap;
+}
+
+li>a{
+    color: blue;
+    text-decoration: none;
+}
+li{
+    width: 15%;
+    text-align: center;
+}
+li.active{
+    background-color: rgb(216, 250, 215) ;
+}

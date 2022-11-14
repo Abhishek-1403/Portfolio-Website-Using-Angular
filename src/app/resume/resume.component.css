@@ -1,0 +1,19 @@
+#imageproperty{
+    margin-left: 35%;
+    margin-right: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-right: 20%;
+    border-left-color: black;
+    border-right-color: black;
+}
+
+#link{
+    margin-left: 45%;
+    padding-left: 10%;
+    background-color: yellow;
+}
+#button{
+    margin-left: 25%;
+}

@@ -1,0 +1,25 @@
+/* ul{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+li>a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    width: 25%;
+    text-align: center;
+}
+li.active{
+    background-color: rgb(216, 250, 215) ; */
+/* } */
+#abcd{
+    position: absolute;
+    left: 50%; 
+     transform: translateX(-50%); 
+    text-align: center;
+    color:darksalmon;
+    background-color: rgb(181, 233, 122);
+}

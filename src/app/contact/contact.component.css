@@ -1,0 +1,24 @@
+#contact{
+    background-color:beige;
+    
+    
+}
+#subheader{
+    font-size:large;
+}
+
+#pageContent{
+    padding-left: 5%;
+    padding-top: 15%;
+    padding-bottom: 50%;
+    padding-right: 20%;
+}
+#image{
+    padding-left: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+#contactheader{
+    padding-left: 0%;
+}

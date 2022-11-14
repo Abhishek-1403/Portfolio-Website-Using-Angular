@@ -1,0 +1,64 @@
+<!-- <app-header (featureSelected)="onNavigate($event)"></app-header> -->
+<!-- <title>
+ 
+  <div><h2>Protfolio website of Abhishek Gupta.</h2></div>
+  
+</title>
+ -->
+
+
+
+
+
+
+
+
+
+
+<!-- <div>
+  <span> <a routerLink="./about" routerLinkActive="active"> About </a></span>
+  <span><a routerLink="./contact"> Contact Details> </a></span>
+  <span routerLink="./profile-links"> Profile-Links </span>
+  <span routerLink="./achivements"> Achivements </span>
+</div>
+<router-outlet>
+
+</router-outlet>
+ -->
+ <app-header></app-header>
+
+
+<div class="container" id="fullContent">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-12 col-sm-offset-1 col-md-offset-2">
+      <ul class="nav nav-tabs">
+        <li role="presentation"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}">
+          <a routerLink="/">About</a>
+        </li>
+        <li role="presentation"
+            routerLinkActive="active">
+          <a routerLink="contact">Contact- Details</a>
+        </li>
+        <li role="presentation"
+            routerLinkActive="active">
+          <a [routerLink]="['profile-links']">Profile-Links</a>
+        </li>
+        <li role="presentation"
+            routerLinkActive="active">
+          <a [routerLink]="['achivements']">Achivements</a>
+        </li>
+        <li role="presentation"
+            routerLinkActive="active">
+          <a [routerLink]="['resume']">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
