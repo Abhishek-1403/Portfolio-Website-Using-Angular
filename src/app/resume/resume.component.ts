@@ -11,7 +11,7 @@ export class ResumeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  url1="./assets/Resume.jpeg";
-  url2="./assets/Resume_Updated.pdf"
+  url1="./assets/Resume_Image.png";
+  url2="./assets/Abhishek Resume.pdf";
 
 }

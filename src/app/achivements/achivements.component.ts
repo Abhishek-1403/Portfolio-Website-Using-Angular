@@ -13,4 +13,5 @@ export class AchivementsComponent implements OnInit {
   }
 
   achivementUrl="./assets/Achivement_Icon.png";
+  
 }
